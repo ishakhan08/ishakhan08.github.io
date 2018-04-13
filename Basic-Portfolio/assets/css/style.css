@@ -3,14 +3,18 @@ h1 {
     color: white;
     padding: 10px;
     width: 200px;
+    margin-left: 200px;
 
 }
 h2 {
     padding: 10px;
+    color: brown;
    
 }
 .top_line {
     float: right;
+    margin-right: 170px;
+    padding: 1px;
    
 }
 
@@ -40,7 +44,7 @@ a {
     float: right;
     margin-top: -85px;
     color: gray;
-    padding: 35px;
+    padding: 34px;
     
 }
 
@@ -48,27 +52,32 @@ header {
     
 }
 p {
+
+    letter-spacing: 1px;
+    line-height: 20px;
         
 }
 footer {
-    background-color: lightgray;
-    position: fixed;
-    width:100%;
-    height:30px;
-    text-align: center;
-    bottom: 0;
-    
+    position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 3em;
+	text-align: center;
+	font-size: 0.8em;
+	color: #cccccc;
+	background-color: #666666;
+	border-top: 7px solid brown;
 }
 .front {
     padding: 25px;
     float: left;
+    size: -50%
     
 
     
 }
-form {
-    
-    }
+
 .CPA {
    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -85,10 +94,14 @@ a:hover {
     color: brown;
 
 }
-.form {
-    padding: 50px;
+form {
+    padding: 30px;
     margin-top: -50%;
-    background-color: grey;
+    background-color: white;
+    float: left;
+    margin-top: -9px;
+    width: 90.5%;
+    height: 100%;
 
 
 }
@@ -98,7 +111,7 @@ aside {
     padding: 50px;
     margin: 20px;
     margin-left: -60px;
-    margin-top: -50px;
+    margin-top: -60px;
     margin-bottom:-80px;
     margin-right: -60px;
 }
@@ -106,6 +119,9 @@ aside {
 
     background-image: url(/Users/ishamunavvar/Basic-Portfolio/assets/images/funky-lines.png);
     float: left;
+    margin-top: -25px;
+    margin-bottom: 00px;
+    padding: 100px;
     
 
 }
@@ -117,6 +133,27 @@ aside {
     background-color: white;
     margin-left:110px;
     margin-right:110px; 
-    
-    
+    margin-top: -80px;
 }
+.nestedbody2 {
+
+    background-color: white;
+    margin-left:110px;
+    margin-right:110px; 
+    margin-top: -80px;
+
+}
+.contact {
+    padding: 10px;
+    width: 20%;
+}
+.bodyclass2 {
+    background-image: url(/Users/ishamunavvar/Basic-Portfolio/assets/images/funky-lines.png);
+    float: left;
+    margin-top: -25px;
+    margin-bottom: 00px;
+    padding: 100px;
+    width: 80%;
+}
+
+    
