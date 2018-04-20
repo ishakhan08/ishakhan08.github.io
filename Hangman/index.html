@@ -1,0 +1,66 @@
+<!Doctype html>
+<html lang="en-us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+        <div class="animatedHeading">
+                <h1>HANGMAN</h1>
+        </div>
+        <hr>
+
+        <div class = "container">
+                
+                        <div class = "row">
+                            
+                            <div class = "col-md-6">
+                                <div class="w3-container w3-center w3-animate-zoom">
+                                <img src = "assets/images/hangman.jpeg" alt= "hangman">
+                                </div>
+                            </div>
+        <div class = "col-md-6">
+          <p id="demo"></p>
+          <form name="wordform">
+          <input name="wordtext" type="text" size="10" maxlength="1">
+        <button onclick="enter()" type="button" class="btn btn-info">Guess</button>
+
+         <p id="wrongletter">Wrong Letters:</p>
+         </form>
+         </div>
+         </div>
+
+         <div class = "row">
+             <div class = "col-md-6">
+
+
+         <div class = "hangman">
+          <img src="http://www.writteninpencil.de/Projekte/Hangman/hangman0.png" id="hangman"><br />
+
+          <div class = "col-md-6">
+          <button onclick="location.reload()" type="button" class="btn btn-info">New Game</button>
+          </div>
+    
+          </div>
+          </div>
+        
+
+        </div>
+        </div>
+        </div>
+
+        <script type = "text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+    
+    </html>
+    
+
+    
+    
