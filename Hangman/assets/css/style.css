@@ -25,8 +25,8 @@ img:hover {
     margin: 0;
     line-height: 50px;
     text-align: left;
-    color: burlywood;
-    background-color: brown;
+    color:white;
+    background-color:rgb(5, 48, 5);
     text-align: center;
 
     /* Apply animation to this element */	
@@ -63,11 +63,15 @@ p {
 }
   
 form {
-    margin-top: 35px;
+    
+    margin-top: 50px;
+    color:lightcyan;
+    font-weight: bold;
+    font-size: 30px;
+   
     
 }
 p {
-    
     
     font-weight: bold;
     margin-top: 10px;
@@ -76,11 +80,25 @@ p {
  
     margin-left: 20%;
     margin-top: 50px;
+    width: 200%;
+    
 }
 
 .buttonhangman {
-    margin-top: 50px;
+    margin-top: 30%;
+    margin-left: 35%;
 }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+
+
 
 
 

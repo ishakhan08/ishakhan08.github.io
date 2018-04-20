@@ -12,6 +12,10 @@
 
 <body>
 
+        <video autoplay muted loop id="myVideo">
+                <source src="assets/images/video.mp4" type="video/mp4">
+              </video>
+
         <div class="animatedHeading">
                 <h1>HANGMAN</h1>
         </div>
@@ -27,10 +31,11 @@
                                 </div>
                             </div>
         <div class = "col-md-6">
-          <p id="demo"></p>
+          
           <form name="wordform">
+                <p id="demo"></p>
           <input name="wordtext" type="text" size="10" maxlength="1">
-        <button onclick="enter()" type="button" class="btn btn-info">Guess</button>
+        <button onclick="enter()" type="button" class="btn btn-info btn-lg">Guess</button>
 
          <p id="wrongletter">Wrong Letters:</p>
          </form>
@@ -38,23 +43,24 @@
          </div>
 
          <div class = "row">
+                <div class = "col-md-6">
+                        <div class = "buttonhangman" >
+                    <button onclick="location.reload()" type="button" class="btn btn-info btn-lg btn-block">New Game</button>
+                    </div>
+                    </div>
              <div class = "col-md-6">
 
 
          <div class = "hangman">
-          <img src="http://www.writteninpencil.de/Projekte/Hangman/hangman0.png" id="hangman"><br />
-
-          <div class = "col-md-6">
-          <button onclick="location.reload()" type="button" class="btn btn-info">New Game</button>
+          <img class = "imghangman" src="http://www.writteninpencil.de/Projekte/Hangman/hangman0.png" id="hangman"><br />
           </div>
+          </div>
+
+          
     
           </div>
           </div>
         
-
-        </div>
-        </div>
-        </div>
 
         <script type = "text/javascript" src="assets/javascript/game.js"></script>
     </body>
