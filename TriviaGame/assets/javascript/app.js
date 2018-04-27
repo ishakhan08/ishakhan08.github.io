@@ -27,7 +27,7 @@ $(document).ready(function () {
         {
             question: "What was the name of the self help book that the girls loved?",
             answers: ["Be Your Own Cleansing Pool", "Be Your Own Windkeeper", "Be Your Own Lightning Bearer", "Be Your Own Person"],
-            value: 2,
+            value: 1,
             correctAnswer: "Be Your Own Windkeeper",
             image: "assets/images/windkeeper.jpeg",
         },
