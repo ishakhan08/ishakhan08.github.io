@@ -42,7 +42,8 @@ i:hover {
    
 }
 .card-text {
-    margin-left: -20%;
+    text-align: center;
+    margin-left: 15%;
 }
 .card-title {
     margin-left: 10%;
