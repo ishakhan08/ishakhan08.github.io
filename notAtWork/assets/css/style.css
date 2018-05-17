@@ -2,8 +2,9 @@
 
 @font-face {
     font-family: 'polya_regularregular';
-    src: url('../fonts/polya2.woff') format('woff2'),
-         url('../fonts/polya.woff') format('woff');
+    src: url('../fonts/polya.woff') format('woff');
+    /* url('../fonts/polya2.woff') format('woff2'),
+         url('../fonts/polya.woff') format('woff'); */
     font-weight: normal;
     font-style: normal;
 }  
