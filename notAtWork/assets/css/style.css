@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'polya_regularregular';
-    src: url('../fonts/polya.woff') format('woff');
-    /* url('../fonts/polya2.woff') format('woff2'),
-         url('../fonts/polya.woff') format('woff'); */
+    src: url('../fonts/polya2.woff') format('woff2'),
+         url('../fonts/polya.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }  
+
 .logo {
     font-family: polya_regularregular;
     color: #181717;
@@ -35,6 +35,9 @@
     background-color: rgb(26,26,26);
   }
  
+  body > div.main-body > div > div:nth-child(2)  {
+    text-align: center;
+  }
 
   /* .toggle-logo {
     background-color: white;
@@ -59,7 +62,7 @@ html, header {
 
 body {
     font-family: 'Open Sans', sans-serif !important;
-    background: linear-gradient(white,white);
+    
     color: black;
     
     
@@ -145,12 +148,14 @@ body {
 }
 .restaurant-img {
     height: 90px;
-    width: 90px;
+    width: 110px;
     object-fit: cover;
     padding-right: 25px;
+    
 }
 .col-one {
     padding: 0px;
+    
 }
 
 .restaurant-name {
@@ -201,7 +206,12 @@ body {
 #mapid {
   background-color: #eee;
   
+  
 }
+#append {
+  
+}
+
 .main-body {
   background-color: #eee;
 }
@@ -442,4 +452,35 @@ body {
   }
   a:hover {
     color: #eee;
+  }
+
+  @media screen and (max-width: 1180px) {
+
+    .main-body {
+      width: 50%;
+    }
+    footer {
+      margin-right: 20%;
+    }
+    .magicButton {
+      float: right;
+      margin-bottom: 10%;
+      margin-right: 10%;
+
+    }
+    .head {
+      width: 100%;
+      height: 50%;
+    }
+    .navbar-brand {
+    }
+    .toggleWrapper {
+      margin-bottom: 10%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+  }
+
+  @media screen and (max-width: 640px) {
   }
