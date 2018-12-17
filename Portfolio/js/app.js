@@ -1,4 +1,6 @@
 
+//navigation
+
 
 // welcome
 
@@ -90,5 +92,18 @@ $(function() {
   $('a[href*=#]').on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+
+// change color on scrolling of navbar
+
+$(function() {
+  $(window).scroll(function () {
+     if ($(this).scrollTop() > 50) {
+        $('nav').addClass('changeColor')
+     }
+     if ($(this).scrollTop() < 50) {
+        $('nav').removeClass('changeColor')
+     }
   });
 });
