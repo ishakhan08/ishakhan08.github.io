@@ -174,7 +174,7 @@ h3,p  {
 .housewarming {
   margin-top:0% !important;
   margin-bottom: 100%;
-  margin-left: 0 !important;
+  /* margin-left: 0 !important; */
 }
 
 .h, .v, .vapour, .cBot, .ceiling, .cover, .top, .cTop, .housewarming, .chimney, .ceils, .bodyHouse, .floor, .tree, .ground, .door, .knob, .window, .support, .main, .branch, .stem{
