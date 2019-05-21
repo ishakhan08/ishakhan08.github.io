@@ -5,9 +5,9 @@
   height: 100%;
   background: url('http://www.uts.ae/greetings/eid-ul-adha/images/background.png') bottom center no-repeat, radial-gradient(ellipse at bottom, #381c4b 0%, #1b2735 100%);
   background-position:left 120%;
-  background-size: 100%;
+  background-size: 50%;
   overflow: hidden;
-  height:25vh;
+  height:50vh;
   position:relative;
 }
 
@@ -81,8 +81,8 @@
 
   .ramadantext {
     font-family: Ramadhan Kareem;
-    margin-top: 25%;
-    font-size: 5em;
+    margin-top: 70%;
+    font-size: 3em;
     text-align: center;
     color: #983564;
   }
@@ -173,7 +173,8 @@ h3,p  {
 } */
 .housewarming {
   margin-top:0% !important;
-  margin-bottom: 20%;
+  margin-bottom: 100%;
+  margin-left: 0 !important;
 }
 
 .h, .v, .vapour, .cBot, .ceiling, .cover, .top, .cTop, .housewarming, .chimney, .ceils, .bodyHouse, .floor, .tree, .ground, .door, .knob, .window, .support, .main, .branch, .stem{
@@ -183,6 +184,7 @@ h3,p  {
   left:0;
   margin:auto;
   position:absolute;
+
 } 
 
 body{
@@ -929,9 +931,10 @@ footer{
   position: fixed;
   bottom: 0%;
   width: 100%;
-  height: 20%;
+  height: 10%;
   color: #983564;
   font-family: Ramadhan Kareem;
+  font-size: 1em;
   text-align: center;
   font-size: 2em;
 }
@@ -940,13 +943,13 @@ footer{
   font-family: Apple Chancery, cursive;
   color: black;
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .eidText {
   color: black;
   font-family: Apple Chancery, cursive !important;
-  margin-top: -60% !important;
+  margin-top: -10% !important;
   margin-bottom: 10% !important;
   text-align: center;
 }
@@ -957,6 +960,7 @@ footer{
   margin-top: 110% !important;
   margin-bottom: 10% !important;
   text-align: center;
+  margin-left: 20%;
 }
 
 /* h2 {
@@ -1013,7 +1017,7 @@ span {
   height: 15cm;
   padding: 2cm 0;
   margin: 1cm auto;
-  margin-top: 50%;
+  margin-top: 120%;
   box-shadow: 0.25cm 0.25cm 1cm black;
   background: #fff7d5;
   background-image:url('http://img0.etsystatic.com/012/0/7003894/il_570xN.452537494_pczk.jpg');
@@ -1095,7 +1099,7 @@ p.web {
 }
 
 span {
-  background-color:white;
+  /* background-color:white; */
   padding-left:3px;
   padding-right:3px;
 }
