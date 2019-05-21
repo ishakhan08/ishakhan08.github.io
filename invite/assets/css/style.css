@@ -952,6 +952,7 @@ footer{
   color: black;
   font-family: Apple Chancery, cursive !important;
   /* margin-top: -10% !important; */
+  margin-top: 50%;
   margin-bottom: 10% !important;
   text-align: center;
 }
@@ -1110,7 +1111,7 @@ span {
 
 
 /* media screen */
-
+/* 
 @media only screen and (min-width: 700px) {
 
   .ramadantext {
@@ -1123,4 +1124,4 @@ span {
     margin-top: -35% !important;
   }
 
-}
+} */
