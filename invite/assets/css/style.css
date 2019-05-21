@@ -85,6 +85,7 @@
     font-size: 3em;
     text-align: center;
     color: #983564;
+    position: relative;
   }
   
 .lanterns{
@@ -1107,5 +1108,18 @@ span {
 
 
 
-/* rsvp button */
+/* media screen */
 
+@media only screen and (min-width: 700px) {
+
+  .ramadantext {
+    top: -40%;
+  }
+  .card {
+    margin-top: 60%;
+  }
+  .eidText {
+    margin-top: -35% !important;
+  }
+
+}
