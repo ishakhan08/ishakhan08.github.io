@@ -933,7 +933,7 @@ footer{
   position: fixed;
   bottom: 0%;
   width: 100%;
-  height: 15%;
+  height: 17%;
   color: #983564;
   font-family: Ramadhan Kareem;
   font-size: 1em;
@@ -951,7 +951,7 @@ footer{
 .eidText {
   color: black;
   font-family: Apple Chancery, cursive !important;
-  margin-top: -25% !important;
+  margin-top: -10% !important;
   margin-bottom: 10% !important;
   text-align: center;
 }
