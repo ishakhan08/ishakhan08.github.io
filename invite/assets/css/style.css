@@ -406,7 +406,7 @@ body{
 .illustration {
   display: flex;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 20%;
   margin-bottom: 90%;
   width: 0;
   margin-left: 50%;
@@ -949,7 +949,7 @@ footer{
 .eidText {
   color: black;
   font-family: Apple Chancery, cursive !important;
-  margin-top: -5% !important;
+  margin-top: -25% !important;
   margin-bottom: 10% !important;
   text-align: center;
 }
@@ -960,7 +960,7 @@ footer{
   margin-top: 110% !important;
   margin-bottom: 10% !important;
   text-align: center;
-  margin-left: 20%;
+  /* margin-left: 20%; */
 }
 
 /* h2 {
