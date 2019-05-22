@@ -951,9 +951,6 @@ footer{
 .eidText {
   color: black;
   font-family: Apple Chancery, cursive !important;
-  /* margin-top: -10% !important; */
-  /* margin-top: 50%; */
-  /* margin-bottom: 10% !important; */
   text-align: center;
 }
 
@@ -980,6 +977,7 @@ span {
   font-size: 2em;
   font-family: Apple Chancery, cursive;
   margin-left: 50%; 
+  margin-top: 10%;
   
 }
 
