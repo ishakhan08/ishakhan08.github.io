@@ -612,11 +612,9 @@ span{
       
     }
 @media (min-width: 340px) and (max-width: 560px) {
-    body{
-        width: 340px;
-    }
+    
     .card{
-        width: 100%;
+        width: 340px;
     }
     }
     .canvas{
