@@ -612,11 +612,14 @@ span{
       
     }
 @media (min-width: 340px) and (max-width: 560px) {
+    .balloon{
+        width: 340px;
+    }
     
     .card{
         width: 340px;
     }
-    }
+    
     .canvas{
         margin-top: 70%;
         width: 100%;
