@@ -594,12 +594,18 @@ span{
     /* left: -28%; */
 }
 @media (max-width: 767px) {
+    
+    
     .canvas{ margin-top: 60%;
-        margin-left: -20%;
+        margin-left: 30%;
       }
       .invitationcard{
-          margin-left: 50%;
+          margin-left: 10%;
+          /* height: 50%; */
           
+      }
+      .col-md-6n{
+          margin-top: 110%;
       }
       
     }
