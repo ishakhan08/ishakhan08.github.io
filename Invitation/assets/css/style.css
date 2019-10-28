@@ -611,7 +611,7 @@ span{
       }
       
     }
-@media (min-width: 340px) and (max-width: 560px) and (-webkit-device-pixel-ratio: 3) {
+@media (min-width: 340px) and (max-width: 560px) and (-webkit-device-pixel-ratio: 2) {
     .balloon{
         width: 340px;
     }
