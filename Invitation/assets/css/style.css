@@ -587,12 +587,26 @@ span{
 
 .canvas{
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	/* margin: auto; */
 	height: 300px;
     width: 350px;
     /* left: -28%; */
 }
+@media (max-width: 767px) {
+    .canvas{ margin-top: 60%;
+        margin-left: -20%;
+      }
+      .invitationcard{
+          margin-left: 50%;
+          
+      }
+    }
+@media (min-width: 640px) { body {font-size:1rem;} }
+
+
+
+
 .peanut{
     font-family: "Hommemade Apple", cursive;
     margin-top: -20%;
@@ -931,6 +945,6 @@ margin-top: 50%;
 
 html { font-size:100%; } 
 
-@media (min-width: 640px) { body {font-size:1rem;} } 
+/* @media (min-width: 640px) { body {font-size:1rem;} } 
 @media (min-width:960px) { body {font-size:1.2rem;} } 
-@media (min-width:1100px) { body {font-size:1.5rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } } */
